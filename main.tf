@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "harirg" {
-  name     ="${terraform.workspace}-rggroup"
+  name     ="${terraform.workspace}-grp"
   location = local.location  
 }
 
